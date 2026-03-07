@@ -169,8 +169,7 @@ Pada tahap ini kita akan melakukan **registrasi user baru menggunakan Firebase A
 
 Endpoint yang digunakan adalah:
 
-POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={
-{FIREBASE_API_KEY}}
+POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={{FIREBASE_API_KEY}}
 
 
 Ganti bagian **FIREBASE_API_KEY** dengan API Key yang didapat dari Firebase.
@@ -223,6 +222,8 @@ Langkah-langkah:
 > User berhasil dibuat dan Firebase mengembalikan response berupa token autentikasi seperti **idToken**, **refreshToken**, dan **expiresIn**.  
 > Artinya proses registrasi atau login berjalan dengan sukses.
 
+### Register Berhasil
+
 ![Register Berhasil](assets/images/register-berhasil.png)
 
 ---
@@ -233,14 +234,30 @@ Langkah-langkah:
 > Request gagal diproses oleh Firebase.  
 > Hal ini biasanya terjadi karena beberapa kemungkinan seperti:
 >
-> - Email sudah terdaftar (Seperti di gambar)
-> - Format request tidak sesuai
-> - API Key salah
+> - Email sudah terdaftar (Seperti di gambar) dan lain-lainnya seperti keterangan dibawah ini :
+
+### Contoh Bad Request
 
 ![Contoh Bad Request](assets/images/contoh-bad-request.png)
 
 ---
 
+### Register Gagal
+
 ![Register Gagal](assets/images/register-gagal.png)
+
+---
+
+### Test Menyimpan Id Token
+
+![Token Belom Tersimpan](assets/images/environment-belom-tersimpan.png)
+
+### Untuk bisa tersimpan coba ubah dibagian sini dan pilih Environment yang sudah di buat sebelumnya :
+
+![Token Belom Tersimpan](assets/images/ubah-environment.png)
+
+### Jika sudah coba send Request lagi dengan email lain dan lihat hasilnya :
+
+![Token Tersimpan](assets/images/environment-tersimpan.png)
 
 ---
