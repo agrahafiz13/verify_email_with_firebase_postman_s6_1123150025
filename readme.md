@@ -91,4 +91,32 @@ Langkahnya:
 
 ![Enable Google](assets/images/google-menu.png)
 
+### Pastikan Authentication Semua Sudah Enable
+
+![Enable All](assets/images/cek-auth.png)
+
+---
+
+# 3. Mendapatkan Firebase API Key
+
+Untuk menggunakan Firebase API melalui Postman, kita memerlukan **API Key**.
+
+Langkah-langkah:
+
+1. Klik **Project Settings**
+2. Masuk ke tab **General**
+3. Scroll ke bagian **Your Apps**
+
+---
+
+### Firebase Project Settings
+
+![Firebase Project Settings](assets/images/firebase-project-settings.png)
+
+---
+
+Kemudian salin atau simpan nilai:
+
+API Key ini akan digunakan pada request Postman.
+
 ---
