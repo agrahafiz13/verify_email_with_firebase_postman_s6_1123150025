@@ -21,3 +21,32 @@ Metode ini digunakan untuk memastikan bahwa alur autentikasi Firebase berjalan d
 - [7. Testing Login Setelah Verifikasi](#7-testing-login-setelah-verifikasi)
 
 ---
+
+# 1. Setup Firebase Project
+
+Pertama kita perlu membuat project baru di Firebase Console.
+
+1. Buka halaman:
+https://console.firebase.google.com
+
+![Project yang ada di Firebase](assets/images/halaman-firebase.png)
+
+2. Klik **Add Project**
+
+3. Masukkan nama project.
+
+4. Klik **Continue** hingga project selesai dibuat.
+
+---
+
+### Tampilan pembuatan project
+
+![Create Firebase Project](assets/images/firebase-create-project.png)
+
+---
+
+Setelah project berhasil dibuat, kita akan diarahkan ke dashboard Firebase.
+
+![Halaman Project Firebase](assets/images/halaman-project.png)
+
+---
