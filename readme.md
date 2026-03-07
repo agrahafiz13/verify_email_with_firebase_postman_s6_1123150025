@@ -139,3 +139,26 @@ Langkah-langkah:
 ![Postman Login](assets/images/postman-login.png)
 
 ---
+
+# 5. Membuat Pengujian Baru di Postman 
+
+Setelah berhasil masuk ke Postman, kita akan membuat **Pengujian** untuk melakukan test dengan API Firebase.
+
+Langkah-langkah:
+
+1. Buat Folder di **Collection** dan **Environments**
+2. Setelah itu klik **Environments**
+3. Create New -> Lalu ubah nama menjadi "My Environment".
+4. Isi variabel dan value-nya seperti gambar di bawah ini:
+
+---
+
+### Setup Testing
+
+![Setup Testing](assets/images/create-testing.png)
+
+### Setup Environments
+
+![Konfigurasi](assets/images/environment.png)
+
+---
