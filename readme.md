@@ -215,27 +215,31 @@ Langkah-langkah:
 ---
 
 ### Jika sudah, coba test Send dan lihat hasilnya dengan Beberapa Kemungkinan
-1. <div style="background-color:#d4edda; padding:15px; border-radius:8px; border-left:6px solid #28a745;">
-<b>200 OK - Request Berhasil</b>
-Request berhasil diproses oleh Firebase Authentication.  
-User berhasil dibuat dan Firebase mengembalikan response berupa token autentikasi seperti <b>idToken</b>, <b>refreshToken</b>, dan <b>expiresIn</b>.
-Artinya proses registrasi atau login berjalan dengan sukses.
-</div>
+1. 
+> [!NOTE]
+> **200 OK - Request Berhasil**
+>
+> Request berhasil diproses oleh Firebase Authentication.  
+> User berhasil dibuat dan Firebase mengembalikan response berupa token autentikasi seperti **idToken**, **refreshToken**, dan **expiresIn**.  
+> Artinya proses registrasi atau login berjalan dengan sukses.
 
 ![Register Berhasil](assets/images/register-berhasil.png)
 
 ---
-2. <div style="background-color:#f8d7da; padding:15px; border-radius:8px; border-left:6px solid #dc3545;">
-<b>400 Bad Request - Request Gagal</b>
-
-Request gagal diproses oleh Firebase.  
-Hal ini biasanya terjadi karena beberapa kemungkinan seperti:
-• Email sudah terdaftar (Seperti di Gambar) dan beberapa **Bad Request** seperti Gambar dibawah ini
+2. 
+> [!WARNING]
+> **400 Bad Request - Request Gagal**
+>
+> Request gagal diproses oleh Firebase.  
+> Hal ini biasanya terjadi karena beberapa kemungkinan seperti:
+>
+> - Email sudah terdaftar (Seperti di gambar)
+> - Format request tidak sesuai
+> - API Key salah
 
 ![Contoh Bad Request](assets/images/contoh-bad-request.png)
 
-Periksa kembali request yang dikirim melalui Postman.
-</div>
+---
 
 ![Register Gagal](assets/images/register-gagal.png)
 
