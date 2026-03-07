@@ -120,3 +120,22 @@ Kemudian salin atau simpan nilai:
 API Key ini akan digunakan pada request Postman.
 
 ---
+
+# 4. Login ke Postman
+
+Setelah mendapatkan **Firebase API Key**, langkah selanjutnya adalah membuka aplikasi **Postman** untuk melakukan pengujian Firebase REST API.
+
+Langkah-langkah:
+
+1. Buka aplikasi **Postman**
+2. Jika belum memiliki akun, lakukan **Sign Up**
+3. Jika sudah memiliki akun, lakukan **Login**
+4. Setelah berhasil login, Anda akan masuk ke halaman dashboard Postman
+
+---
+
+### Halaman Login Postman
+
+![Postman Login](assets/images/postman-login.png)
+
+---
