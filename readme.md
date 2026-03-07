@@ -47,6 +47,48 @@ https://console.firebase.google.com
 
 Setelah project berhasil dibuat, kita akan diarahkan ke dashboard Firebase.
 
-![Halaman Project Firebase](assets/images/halaman-project.png)
+### Dashboard Firebase Project
+
+![Firebase Dashboard](assets/images/dashboard.png)
+
+---
+
+# 2. Enable Authentication
+
+Selanjutnya kita perlu mengaktifkan fitur **Authentication**.
+
+Langkah-langkahnya:
+
+1. Pada sidebar Firebase klik **Build**
+2. Pilih menu **Authentication**
+3. Klik **Get Started**
+
+---
+
+### Menu Authentication
+
+![Firebase Authentication Menu](assets/images/menu-auth.png)
+
+---
+
+Setelah itu kita harus mengaktifkan metode login **Email/Password** dan **Google**.
+
+Langkahnya:
+
+1. Masuk ke tab **Sign-in Method**
+2. Klik **Email/Password**
+3. Aktifkan **Enable**
+4. Klik **Save**
+4. Setelah itu Klik **Add New Provider** dan Pilih Menu/Logo **Google**
+
+---
+
+### Enable Email Password
+
+![Enable Email Password](assets/images/emailpassword-menu.png)
+
+### Enable Google
+
+![Enable Google](assets/images/google-menu.png)
 
 ---
