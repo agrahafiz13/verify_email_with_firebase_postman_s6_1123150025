@@ -261,3 +261,57 @@ Langkah-langkah:
 ![Token Tersimpan](assets/images/environment-tersimpan.png)
 
 ---
+
+# 7. Mengirim Email Verification
+
+Setelah user berhasil melakukan registrasi, langkah berikutnya adalah **mengirim email verifikasi** kepada user menggunakan Firebase Authentication API.
+
+Email ini digunakan untuk memastikan bahwa email yang digunakan oleh user **benar-benar valid**.
+
+---
+
+### Endpoint yang digunakan : 
+POST https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key={{FIREBASE_API_KEY}}
+
+Ganti bagian **FIREBASE_API_KEY** dengan Firebase API Key yang sudah didapatkan sebelumnya.
+
+---
+
+### Setup Request di Postman
+
+Langkah-langkah:
+
+1. Klik **New Request**
+2. Pilih method **POST**
+3. Masukkan endpoint Firebase
+4. Masuk ke tab **Headers** dan isi sesuai di Gambar
+5. Masuk ke tab **Body**
+6. Pilih **Raw**
+7. Pilih format **JSON** dan isi sesuai di Gambar
+8. Setelah itu kirim, dan cek Pesan di Email, biasanya berada di Spam jika masuk coba verifikasi akun
+
+---
+
+### Headers Request
+
+![Headers Request](assets/images/headers-request.png)
+
+---
+
+### Body Request
+
+![Send Verification Request](assets/images/body-request.png)
+
+---
+
+### Request Send Email Verification
+
+![Send Verification Request](assets/images/send-verification-request.png)
+
+---
+
+### Done Verification
+
+![Done Verification](assets/images/done-verif.png)
+
+---
