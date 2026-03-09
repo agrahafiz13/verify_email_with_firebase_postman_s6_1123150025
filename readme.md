@@ -2,9 +2,9 @@
 
 <p align="center">
 
-![Nama](https://img.shields.io/badge/Nama-Nama_Anda-blue)
-![NIM](https://img.shields.io/badge/NIM-123456789-green)
-![Kelas](https://img.shields.io/badge/Kelas-TI_3A-orange)
+![Nama](https://img.shields.io/badge/Nama-Agra_Alfian_Hafiz-blue)
+![NIM](https://img.shields.io/badge/NIM-1123150025-green)
+![Kelas](https://img.shields.io/badge/Kelas-TI_SE_23_SH-orange)
 
 </p>
 
