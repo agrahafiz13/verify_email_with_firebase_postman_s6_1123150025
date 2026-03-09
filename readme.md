@@ -350,3 +350,45 @@ Kita bisa merubah template kirim verifikasi email dengan cara :
 ![Console Log](assets/images/console-log.png)
 
 ---
+
+# 8. Cek Status Verifikasi Email
+### A. Cara mengecek apakah email sudah diverifikasi lewat Firebase langsung : POST ke accounts:lookup — cek field emailVerified
+
+### Endpoint yang digunakan : 
+POST https://identitytoolkit.googleapis.com/v1/accounts:lookup?key={{FIREBASE_API_KEY}}
+
+Ganti bagian **FIREBASE_API_KEY** dengan Firebase API Key yang sudah didapatkan sebelumnya.
+
+---
+
+### Setup Request di Postman
+
+Langkah-langkah:
+
+1. Klik **New Request**
+2. Pilih method **POST**
+3. Masukkan endpoint Firebase
+4. Masuk ke tab **Body**
+5. Pilih **Raw**
+6. Pilih format **JSON** dan isi sesuai di Gambar
+7. Setelah itu kirim, dan cek Pesan di Email, biasanya berada di Spam jika masuk coba verifikasi akun
+
+---
+
+### Body Request
+
+![Body Cek Status Email](assets/images/cek-status-body.png)
+
+---
+
+### Email Terverifikasi
+
+![Contoh status Email yang sudah terverifikasi](assets/images/email-terverifikasi.png)
+
+---
+
+### Email Tidak Terverifikasi
+
+![Contoh status Email yang belom terverifikasi](assets/images/email-tidak-terverifikasi.png)
+
+---
