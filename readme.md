@@ -1,5 +1,13 @@
 # 📧 Firebase Email Verification dengan Postman
 
+<p align="center">
+
+![Nama](https://img.shields.io/badge/Nama-Nama_Anda-blue)
+![NIM](https://img.shields.io/badge/NIM-123456789-green)
+![Kelas](https://img.shields.io/badge/Kelas-TI_3A-orange)
+
+</p>
+
 ![Firebase](https://img.shields.io/badge/Firebase-Authentication-orange)
 ![Postman](https://img.shields.io/badge/Postman-API_Testing-orange)
 ![Status](https://img.shields.io/badge/Module-Practice-blue)
@@ -371,7 +379,7 @@ Langkah-langkah:
 4. Masuk ke tab **Body**
 5. Pilih **Raw**
 6. Pilih format **JSON** dan isi sesuai di Gambar
-7. Setelah itu kirim, dan cek Pesan di Email, biasanya berada di Spam jika masuk coba verifikasi akun
+7. Setelah itu kirim, dan cek status di Response
 
 ---
 
