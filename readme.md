@@ -334,3 +334,19 @@ Kita bisa merubah template kirim verifikasi email dengan cara :
 ![Verification Templates](assets/images/done-verif-template.png)
 
 ---
+
+### Contoh Respone Verifikasi jika Error
+
+![Contoh Error Response Verifikasi](assets/images/contoh-error-req-verif.png)
+
+---
+
+### Test Console Log untuk mengetahui email verifikasi dikirim ke mana
+
+![Script Postmant](assets/images/script-req-verif.png)
+
+### Hasil Testing
+
+![Console Log](assets/images/console-log.png)
+
+---
