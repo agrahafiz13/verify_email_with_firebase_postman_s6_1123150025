@@ -315,3 +315,22 @@ Langkah-langkah:
 ![Done Verification](assets/images/done-verif.png)
 
 ---
+
+### Merubah template email
+Kita bisa merubah template kirim verifikasi email dengan cara :
+1. Buka Firebase
+2. Pilih **AUTHENTICATION**
+3. Pilih **Templates**
+4. Lakukan Penyesuain atau Setting di Menu tersebut, Contohnya seperti di gambar
+
+### Template Verification
+
+![Template Verification](assets/images/template-verification.png)
+
+---
+
+### Done Verification dengan Templates
+
+![Verification Templates](assets/images/done-verif-template.png)
+
+---
