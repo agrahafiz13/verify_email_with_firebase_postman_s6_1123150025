@@ -400,3 +400,62 @@ Langkah-langkah:
 ![Contoh status Email yang belom terverifikasi](assets/images/email-tidak-terverifikasi.png)
 
 ---
+
+# 9. Login dengan Email & Password
+### Coba Test Login dengan Email yang sudah di register sebelumnya.
+
+### Endpoint yang digunakan : 
+POST https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={{FIREBASE_API_KEY}}
+
+Ganti bagian **FIREBASE_API_KEY** dengan Firebase API Key yang sudah didapatkan sebelumnya.
+
+---
+
+### Setup Request di Postman
+
+Langkah-langkah:
+
+1. Klik **New Request**
+2. Pilih method **POST**
+3. Masukkan endpoint Firebase
+4. Masuk ke tab **Body**
+5. Pilih **Raw**
+6. Pilih format **JSON** dan isi sesuai di Gambar
+7. Setelah itu kirim, dan cek status di Response
+
+---
+
+### Body Request
+
+![Body Login email with password](assets/images/body-login.png)
+
+---
+
+### Jika sudah, coba test Send dan lihat hasilnya dengan Beberapa Kemungkinan
+1. 
+> [!NOTE]
+> **200 OK - Request Berhasil**
+>
+> Request berhasil diproses oleh Firebase Authentication.  
+> User berhasil login dengan email dan password yang sudah didaftarkan sebelumnya.
+> Artinya proses login berjalan dengan sukses.
+
+### Login Berhasil
+
+![Login Berhasil](assets/images/login-berhasil.png)
+
+---
+2. 
+> [!WARNING]
+> **400 Bad Request - Request Gagal**
+>
+> Request gagal diproses oleh Firebase.  
+> Hal ini biasanya terjadi karena beberapa kemungkinan seperti:
+>
+> - Email dan Password salah (Seperti di gambar):
+
+### Contoh Login Tidak Berhasil
+
+![Login Tidak Berhasil](assets/images/login-tidak-berhasil.png)
+
+---
